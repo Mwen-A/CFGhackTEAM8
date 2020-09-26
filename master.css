@@ -4,14 +4,22 @@
     text-align: center;
     padding : 40px;
     font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
 }
 
 .flex-sm-fill{
     color:  rgb(61, 133, 198);
     background-color: rgb(159, 197, 232);
+    size: 10px;
 }
 
 .active1{
     background-color: rgb(61, 133, 198);
     color: white;
+}
+
+.h2Style {
+    text-align: center;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
 }

@@ -1,10 +1,10 @@
 h2, h3 {
 display: flex;
 justify-content: center;
-padding: 1rem;
+padding: 50px 0px 0px 0px;
 }
-h2 {
-    padding: 50px 0px 0px 0px;
+.counter {
+    font-size: 2.7rem;
 }
 .statistic, .customers {
     display: flex;
@@ -13,16 +13,22 @@ h2 {
 .stat, .customer {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
     justify-content: space-between;
 }
 .why, .what p {
     text-align: center;
     vertical-align: middle;
 }
-/* .customerlogo {
-    float: left;
-} */
-.what, .customer {
-    /* float: right; */
+.customer {
+    width: auto;
+    height: auto;
+}
+.customersbox {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.customers {
+    align-items: center;
 }

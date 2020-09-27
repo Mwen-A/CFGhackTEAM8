@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -25,36 +26,36 @@
           </nav>
     </header>
     <main>
-        <div class="why">
+        <section class="why">
             <h2>Why is diversity important for my business?</h2>
             <div class="statistic">
                 <div class="stat">
-                    <h3>
-                        1%
-                    </h3>
+                    <div class="counter" data-target="60">
+                        0
+                    </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper, nisl eget varius aliquam, purus nisi feugiat tellus, vel tempor diam tellus luctus augue.                
                 </p>
                 </div>
                 <div class="stat">
-                    <h3>
-                        2%
-                    </h3>
+                    <div class="counter" data-target="60">
+                        2
+                    </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper, nisl eget varius aliquam, purus nisi feugiat tellus, vel tempor diam tellus luctus augue.                
                 </p>   
                 </div>    
                 <div class="stat">
-                    <h3>
-                        3%
-                    </h3>
+                    <div class="counter" data-target="60">
+                        3
+                    </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper, nisl eget varius aliquam, purus nisi feugiat tellus, vel tempor diam tellus luctus augue.                
                 </p>   
                 </div>        
             </div>
-        </div>
-        <div class="what">
+        </section>
+        <section class="what">
             <h2>
                 What do our customers say?
             </h2>
@@ -76,8 +77,8 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
-    
+    <script src="script.js"></script>
 </body>
 </html>

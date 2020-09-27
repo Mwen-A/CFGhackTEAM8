@@ -1,0 +1,28 @@
+h2, h3 {
+display: flex;
+justify-content: center;
+padding: 1rem;
+}
+h2 {
+    padding: 50px 0px 0px 0px;
+}
+.statistic, .customers {
+    display: flex;
+    padding: 1rem;
+}
+.stat, .customer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.why, .what p {
+    text-align: center;
+    vertical-align: middle;
+}
+.customerlogo {
+    float: left;
+}
+.what, .customer {
+    float: right;
+}

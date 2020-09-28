@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 </head>
 <body>
     <header>
@@ -29,24 +31,39 @@
             <h2>Why is diversity important for my business?</h2>
             <div class="statistic">
                 <div class="stat">
-                    <div class="counter" data-target="60">
-                        0
+                    <div class="percentage">
+                        <div class="number">
+                            19
+                        </div>
+                        <div class="sign">
+                            %
+                        </div>
                     </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper, nisl eget varius aliquam, purus nisi feugiat tellus, vel tempor diam tellus luctus augue.                
                 </p>
                 </div>
                 <div class="stat">
-                    <div class="counter" data-target="60">
-                        2
+                    <div class="percentage">
+                        <div class="number">
+                            42
+                        </div>
+                        <div class="sign">
+                            %
+                        </div>
                     </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper, nisl eget varius aliquam, purus nisi feugiat tellus, vel tempor diam tellus luctus augue.                
                 </p>   
                 </div>    
                 <div class="stat">
-                    <div class="counter" data-target="60">
-                        3
+                    <div class="percentage">
+                        <div class="number">
+                            37
+                        </div>
+                        <div class="sign">
+                            %
+                        </div>
                     </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper, nisl eget varius aliquam, purus nisi feugiat tellus, vel tempor diam tellus luctus augue.                
@@ -78,6 +95,8 @@
             </section>
         </section>
     </main>
-    <script src="script.js"></script>
+    <script type="text/javascript">
+    $(".number").counterUp({delay: 100, time: 1300});
+    </script>
 </body>
 </html>

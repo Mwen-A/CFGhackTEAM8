@@ -3,8 +3,13 @@ display: flex;
 justify-content: center;
 padding: 50px 0px 0px 0px;
 }
-.counter {
-    font-size: 2.7rem;
+.number, .sign {
+    font-size: 2rem;
+    padding: 1px;
+}
+.percentage {
+    display: flex;
+    justify-content: center;
 }
 .statistic, .customers {
     display: flex;

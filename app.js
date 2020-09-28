@@ -1,9 +1,11 @@
 
 function analyse() {
     var x = document.getElementById("exPara").innerHTML;
-    console.log(x);
+    var element = document.getElementById("suggests");
     x1 = x.replace(/Lorem/gi, "<b> Lorem </b>");
-    console.log(x1);
     document.getElementById("exPara").innerHTML = x1;
+
+    
+    element.classList.remove("noDisplay");
 }
 

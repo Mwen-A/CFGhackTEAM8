@@ -5,3 +5,11 @@
 .analyzeBtn{
     background-color: rgb(61, 133, 198);
 }
+
+.summary {
+    text-align: center;
+}
+
+.noDisplay { 
+    display:none; 
+}

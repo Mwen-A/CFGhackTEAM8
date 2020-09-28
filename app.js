@@ -6,3 +6,4 @@ function analyse() {
     console.log(x1);
     document.getElementById("exPara").innerHTML = x1;
 }
+

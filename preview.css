@@ -4,6 +4,7 @@
 
 .analyzeBtn{
     background-color: rgb(61, 133, 198);
+    left: 50%;
 }
 
 .summary {
@@ -12,4 +13,8 @@
 
 .noDisplay { 
     display:none; 
+}
+
+#suggests {
+    text-align: center;
 }

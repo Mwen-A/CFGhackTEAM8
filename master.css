@@ -32,3 +32,5 @@
 .nav-link {
     color: white;
 }
+
+ul.nav a:hover { color: white !important; }

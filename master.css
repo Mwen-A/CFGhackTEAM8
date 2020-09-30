@@ -5,27 +5,35 @@
 }
 .mainHeader {
     background-color : rgb(61, 133, 198);
-    color : black;
+    color : white;
     text-align: center;
     padding : 40px;
-    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 5px;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin : 0px;
 }
 
-.flex-sm-fill {
-    color:  rgb(61, 133, 198);
-    background-color: rgb(159, 197, 232);
+.flex-sm-fill{
+    background-color:  rgb(61, 133, 198);
+    color: rgb(159, 197, 232);
     size: 10px;
 }
 
-.active1 {
-    background-color: rgb(61, 133, 198);
+.active1{
+    background-color: rgb(159, 197, 232);;
     color: white;
 }
 
 .h2Style {
     text-align: center;
-    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 30px;
     color:  rgb(61, 133, 198);
+    
+}
+
+.nav-item {
+    background-color:  rgb(61, 133, 198);
+}
+.nav-link {
+    color: white;
 }

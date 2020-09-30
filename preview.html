@@ -28,7 +28,7 @@
     <p class= "summary">A preview into what your analysis could look like. Press the analyse button to reveal how this job advert could be improved!</p>
     
     <div class="container-fluid PreviewContainer " id= 'PC'>
-        <div class= "col-8 offset-2 border border-dark">
+        <div class= "col-8 offset-2 border border-dark advert">
             <div id="exPara"> 
                 We are looking for a competitive, young and decisive salesman to join our team. This individual must have strong communication skills and he/she must be able to work well in a team.<br>
                 <u>Requirements</u> <br>
@@ -46,11 +46,17 @@
         </div>
     </div>
     <div class="container-fluid PreviewContainer ">
-        <div class="row">
-            <button type="button" class="btn btn-primary analyzeBtn offset-6" onclick="analyse()">Analyse</button>
+        <div class="row button_container">
+            <button type="button" class="btn btn-primary analyzeBtn" onclick="analyse()">Analyse</button>
         </div>
     </div>
     <div class= "noDisplay" id= "suggests" >
+        <div class="h2Style container-fluid">
+                <h2 class= "h2Style feedback">Your feedback</h2>
+                <br>
+                <p class="feedbackScore feedback">9/10</p>   
+                <br>    
+        </div>
         <p>
             <b>Competitive</b>
             <p>This is an example of male coded language. Have you considered "motivated" instead?</p>

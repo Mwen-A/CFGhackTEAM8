@@ -9,22 +9,32 @@ padding: 50px 0px 0px 0px;
 }
 .percentage {
     display: flex;
-    justify-content: center;
+}
+.stat {
+    border: solid 1px;
+    margin: 2.3rem 4rem 2rem 4rem;
+}
+.stat:before {
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease 0s;
+
 }
 .statistic, .customers {
     display: flex;
     padding: 1rem;
+    justify-content: center;
 }
 .stat, .customer {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 280px;
 }
-.why, .what p {
-    text-align: center;
-    vertical-align: middle;
-}
+
 .customer {
     width: auto;
     height: auto;

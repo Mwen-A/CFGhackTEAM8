@@ -4,41 +4,4 @@
 
 .analyzeBtn{
     background-color: rgb(61, 133, 198);
-    left: 50%;
-}
-
-.summary {
-    text-align: center;
-}
-
-.noDisplay { 
-    display:none; 
-}
-
-#suggests {
-    text-align: center;
-}
-
-.border-dark {
-    border-color:  rgb(61, 133, 198);
-}
-
-.button_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.feedback {
-    margin: 0px;
-    padding: 0px;
-}
-
-.feedbackScore {
-    text-align: center;
-    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding: 30px;
-    color:  rgb(61, 133, 198);
-    font-size: 25px;
 }

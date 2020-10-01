@@ -1,55 +1,81 @@
-h2, h3 {
+.sectionTitle {
 display: flex;
 justify-content: center;
 padding: 50px 0px 0px 0px;
 }
+
 .number, .sign {
     font-size: 2rem;
     padding: 1px;
 }
 .percentage {
     display: flex;
-}
-.stat {
-    border: solid 1px;
-    margin: 2.3rem 4rem 2rem 4rem;
-    position: relative;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    color: black;
-    opacity: 0;
-    transition: opacity 0.25s;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-}
-.title {
-    padding: 1rem 1rem 2rem 1rem;
-    font-size: 1.4rem;
-}
-.overlay:hover {
-    opacity: 1;
-}
-.overlay > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-.overlay:hover > * {
-    transform: translateY(0);
-}
-.statistic, .customers {
-    display: flex;
-    padding: 1rem;
     justify-content: center;
 }
-.stat, .customer {
+.title {
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 35px;
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(7, 23, 94, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover {
+    height: 420px;
+}
+.container .card .box {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(41, 29, 109, 0.25);
+}
+.container .card .box {
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.1s;
+}
+.box {
+    background: rgb(114, 150, 250);
+}
+.card {
+    background: rgb(0, 102, 255);
+}
+
+/* .customer {
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem 1rem 2rem;
@@ -58,7 +84,8 @@ padding: 50px 0px 0px 0px;
     width: 320px;
     height: 280px;
 }
-.why, .what p {
+
+.what p {
     text-align: center;
     vertical-align: middle;
 }
@@ -74,3 +101,4 @@ padding: 50px 0px 0px 0px;
 .customers {
     align-items: center;
 }
+ */

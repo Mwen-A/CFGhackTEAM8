@@ -27,4 +27,10 @@
     color: white;
 }
 
-ul.nav a:hover { color: white !important; }
+ul.nav a:hover { color: white !important; };
+
+@media only screen and (max-width: 450px) {
+    .nav-item {
+      width: 100%;
+    }
+  }

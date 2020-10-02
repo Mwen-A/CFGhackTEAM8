@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- js link --> 
+  <script src="app.js"></script>
+  <!-- css link --> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+  <script>
+//mapquest API
+var L;
+    window.onload = function() {
+      L.mapquest.key = '7fLpSCYAZcTJAqSXGjifoQ5i4LJnZi7x';
+
+      // 'map' refers to a <div> element with the ID map
+      var map = L.mapquest.map('map', {
+        center: [14.682113, -17.451037],
+        // 1. change 'map' to 'hybrid', try other type of map
+        layers: L.mapquest.tileLayer('map'),
+        zoom: 18
+      });
+
+      // 3. Add icon
+      L.marker([14.682113, -17.451037], {
+        icon: L.mapquest.icons.marker({
+          primaryColor: '#22407F',
+          secondaryColor: '#3B5998',
+          shadow: true,
+          size: 'md',
+          symbol: ''
+        })
+      })
+      .bindPopup('Come and grab a coffee!')
+      .addTo(map);
+    }
+  </script>
+
+  <title>unBiased</title>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <div class= "headerHolder">
+        <h1 class= "mainHeader"> unBiased </h1>
+    </div>
+    <nav>
+    <div class="nav-wrapper color1 fill-width">
+      <ul>
+      <li><a class="flex-sm-fill center" href="#!">Home</a></li>
+        <li><a class="flex-sm-fill center" href="#!">What we do</a></li>
+        <li><a class="flex-sm-fill center" href="preview.html">Preview</a></li>
+        <li><a class="flex-sm-fill center" href="#!">Pricing</a></li>
+        <li><a class="flex-sm-fill center" href="abot.html">Advice bot</a></li>
+        <li><a class="flex-sm-fill center" href="#!">Contact us</a></li>
+      </ul>
+    </div>
+    </nav>
+    </header>
+
+
+  <!-- parallax -->
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="pexels-fauxels-3184424.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+ 
+  <!-- footer -->
+  <footer class="page-footer blue darken-3">
+    <div class="container">
+  <div class="row">
+    <div class="col s12 l6">
+      <h5>Acknowledgements</h5>
+      <p> 
+        Photo by fauxels from Pexels
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat velit assumenda perspiciatis natus excepturi dicta. Ipsum, ducimus quam consequuntur maxime distinctio laboriosam voluptatibus quas nostrum perferendis, exercitationem atque enim! Voluptates.
+     </p>
+  
+    </div>
+    <div class="col s12 l4 offset-l2">
+      <h5>Social Media</h5>
+      <ul class="list-inline">
+        <li><a href="https://www.instagram.com/?hl=en" class="tooltipped btn-floating btn-small grey darken-4" data-tooltip="instagram">
+          <i class="fab fa-instagram"></i></a></li>
+          
+          <li><a href="https://www.twitter.com/" class="tooltipped btn-floating btn-small grey darken-4" data-tooltip="twitter">
+          <i class="fab fa-twitter"></i></a></li>
+    
+          <li><a href="https://www.facebook.com/" class="tooltipped btn-floating btn-small grey darken-4" data-tooltip="facebook">
+          <i class="fab fa-facebook"></i></a></li>
+    
+      </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-copyright blue darken-4">
+    <div class="container center-align">&copy; 2020 Mwen-A</div>
+  </div>
+  
+  </footer>
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  
+  <!--Jquery initiation of functionalities-->
+  <script>
+    var dateToday = new Date();
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.datepicker').datepicker({
+        minDate: dateToday
+
+    });
+    
+    $('.slider').slider({indicators:false})
+    $('.modal').modal();
+    $('.timepicker').timepicker();
+    });
+
+  </script>
+</body>
+</html>

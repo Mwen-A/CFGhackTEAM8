@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="appPreview.js"></script>
+</head>
+<body>
+    <header>
+        <div class= "headerHolder">
+            <h1 class= "mainHeader"> unBiased </h1>
+        </div>
+          <ul class="nav nav-tabs nav-justified d-flex flex-column flex-sm-row">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">What we do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="preview.html">Preview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#!">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">Advice bot</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">Contact us</a>
+              </li>
+          </ul>
+    </header>
+    <h2 class= "h2Style">Preview of your analysis</h2>
+
+    <p class= "summary">A preview into what your analysis could look like. Press the analyse button to reveal how this job advert could be improved!</p>
+    
+    <div class="container-fluid PreviewContainer " id= 'PC'>
+        <div class= "col-8 offset-2 border border-dark advert">
+            <div id="exPara"> 
+                We are looking for a competitive, young and decisive salesman to join our team. This individual must have strong communication skills and he/she must be able to work well in a team.<br>
+                <u>Requirements</u> <br>
+                <ul>
+                    <p>A recent 2.1 undergraduate degree</p>
+                    <p>At least 1 year experience</p>
+                </ul> <br>
+                <u>Benefits</u>
+                <ul>
+                    <p>Maternity pay</p>
+                    <p>Frequent work socials with bottles of champagne!</p>
+                </ul>
+                <p>Competitive salary</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid PreviewContainer ">
+        <div class="row button_container">
+            <button type="button" class="btn btn-primary analyzeBtn" onclick="analyse()">Analyse</button>
+        </div>
+    </div>
+    <div class= "noDisplay" id= "suggests" >
+        <div class="h2Style container-fluid">
+                <h2 class= "h2Style feedback">Your feedback</h2>
+                <br>
+                <p class="feedbackScore feedback">9 hits</p>   
+                <br>    
+        </div>
+        <p>
+            <b>Competitive</b>
+            <p>This is an example of male coded language. Have you considered "motivated" instead?</p>
+        </p>
+        <p>
+           <b>Young</b>
+           <p>This is an example of ageist language and older candidates could be put off applying. Have you considered "energetic" instead?</p>
+        </p>
+        <p>
+            <b>Salesman</b>
+            <p>Many gendered job titles still exist. Have you considered using "salesperson" to be more inclusive?</p>
+         </p>
+         <p>
+            <b>He/She</b>
+            <p>This is an example of LGTBQ+ unconscious bias. Using "they" instead would be more inclusive of gender identities.</p>
+         </p>
+        <p>
+            <b> Recent</b>
+            <p>This is an example of ageist language and older candidates could be put off applying. Is this word necessary?</p>
+        </p>
+        <p>
+            <b>Degree</b>
+            <p>We noticed that you asked for a degree: this could exclude candidates who do not have a degree but have previous experience, apprenticeship or bootcamp.</p>
+        </p>
+        <p>
+            <b>Maternity pay</b>
+            <p>This phrase could exclude candidates who may need to take time off for child caring responsibilities but are not a "mother". Have you considered "parental time off" or "having a child"?</p>
+        </p>
+        <p>
+            <b>Champagne</b>
+            <p>Mentions of alcohol could discourage candidates who do not drink. Instead, why not focus on the social aspects of work socials?</p>
+        </p>
+        <p>
+            <b>Salary</b>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi fugit rem obcaecati beatae odit ratione iusto incidunt molestiae laudantium illum. Placeat consequuntur velit nihil magnam minus nisi veritatis numquam voluptatum.</p>
+        </p>
+    </div>
+</body>
+</html>

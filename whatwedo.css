@@ -27,7 +27,7 @@ padding: 50px 0px 0px 0px;
 .container .card {
     position: relative;
     max-width: 300px;
-    height: 215px;
+    height: 200px;
     background: #fff;
     margin: 30px 35px;
     padding: 50px 15px;
@@ -43,7 +43,7 @@ padding: 50px 0px 0px 0px;
     position: relative;
     width: 260px;
     height: 260px;
-    top: -60px;
+    top: -70px;
     left: 5px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(41, 29, 109, 0.25);
@@ -85,7 +85,8 @@ padding: 50px 0px 0px 0px;
     width: 500px;
     margin: 3rem 5rem 3rem 5rem;
     text-align: center;
-    border: 
+    box-shadow: 0 5px 20px rgba(7, 23, 94, 0.5);
+    border-radius: 4px;
 }
 .customer {
     padding: 1rem;
@@ -93,6 +94,7 @@ padding: 50px 0px 0px 0px;
 i {
     display: flex;
     align-content: center;
+    padding: 10px;
 }
 /* .customer {
     display: flex;

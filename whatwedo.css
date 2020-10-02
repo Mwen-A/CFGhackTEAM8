@@ -80,13 +80,20 @@ padding: 50px 0px 0px 0px;
 }
 .customers {
     display: flex;
+    /* align-content: center; */
     /* justify-content: space-between; */
     width: 500px;
     margin: 3rem 5rem 3rem 5rem;
     text-align: center;
     border: 
 }
-.customer {}
+.customer {
+    padding: 1rem;
+}
+i {
+    display: flex;
+    align-content: center;
+}
 /* .customer {
     display: flex;
     flex-direction: column;

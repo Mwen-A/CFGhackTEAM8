@@ -74,7 +74,19 @@ padding: 50px 0px 0px 0px;
 .card {
     background: rgb(0, 102, 255);
 }
-
+.customersbox {
+    display: flex;
+    justify-content: center;
+}
+.customers {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 500px;
+    margin: 3rem 5rem 3rem 5rem;
+    text-align: center;
+    border: 
+}
+.customer {}
 /* .customer {
     display: flex;
     flex-direction: column;

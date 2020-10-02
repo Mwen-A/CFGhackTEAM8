@@ -19,6 +19,14 @@
     text-align: center;
 }
 
+.h2Style {
+    text-align: center;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 30px;
+    color:  rgb(61, 133, 198);
+    
+}
+
 .border-dark {
     border-color:  rgb(61, 133, 198);
 }
@@ -28,6 +36,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 0px;
 }
 
 .feedback {
@@ -41,4 +50,9 @@
     padding: 30px;
     color:  rgb(61, 133, 198);
     font-size: 25px;
+}
+
+.container-fluid{
+    padding: 0px;
+>>>>>>> 993a7928c7eb48d314a0e6da9904848956984682
 }

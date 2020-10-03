@@ -11,9 +11,46 @@
 </head>
 <body>
     <header>
-        <div class= "headerHolder">
-            <h1 class= "mainHeader"> unBiased </h1>
-        </div>
+        <div class="menu-background">
+            <div class="pull-left">
+                <button onclick="resizeText(1)" class="btn btn-primary "><i id="increase-text-size" alt="increase font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-up"></i>
+                </i></button>
+                <button onclick="resizeText(-1)" class="btn btn-primary "><i id="decrease-text-size" alt="decrease font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-down"></i></i></button>
+            </div>
+            <div class="dropdown pull-right">
+                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-toggle="dropdown">Account
+        </button>
+         
+                    <div class="dropdown-menu pull-right">
+                        <form class="px-4 py-3">
+                          <div class="form-group">
+                            <label for="exampleEmail1">Email address</label>
+                            <input type="email" class="form-control" placeholder="email@example.com">
+                          </div>
+                          <div class="form-group">
+                            <label for="examplePassword1">Password</label>
+                            <input type="password" class="form-control" placeholder="Password">
+                          </div>
+                          <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>   Sign in</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"> Don't have an account? Sign up</a>
+                        <a class="dropdown-item" href="#">Forgot password?</a>
+                      </div>
+          
+              </div>
+            </div>
+       <div class= "headerHolder">
+
+            <h1 class= "mainHeader"> unBiased 
+
+            </h1>
+          
+
+                </div>
+
+            <!-- Links -->
+    
           <ul class="nav nav-tabs nav-justified d-flex flex-column flex-sm-row">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
@@ -22,18 +59,19 @@
               <a class="nav-link" href="whatwedo.html">What we do</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="preview.html">Preview</a>
+              <a class="nav-link" href="preview.html">Preview</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#!">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="bot.html">Advice bot</a>
+                <a class="nav-link active" href="bot.html">Advice bot</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#!">Contact us</a>
               </li>
           </ul>
+
     </header>
     <h2 class= "h2Style">Preview of your analysis</h2>
 

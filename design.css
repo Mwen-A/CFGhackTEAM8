@@ -14,7 +14,13 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+margin: 0 -5px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -40,14 +46,22 @@ body {
   margin: 1rem;
   position: relative;
   width: 300px;
+
 }
 .card:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.padding-text{
+padding-left: 20px;
+color: white;
+}
 
 .header{
 	background-color: gb(50,205,50);
+	text-align: center;
+	color: white;
+	font-weight: 900;
 }
 
 .shadow-effect {
@@ -120,3 +134,15 @@ body {
 		    transition: all 250ms ease-out 0s;
 		    width: 20px;
 		}
+
+
+.summary {
+    text-align: center;
+}
+
+h2 .h2Style {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color:  rgb(61, 133, 198);
+    
+}

@@ -38,7 +38,7 @@
                 </div>
               </nav>
  </div>
- <ul class="sidenav" id="mobile-menu">
+ <ul class="sidenav right" id="mobile-menu">
    <li><a class="subheader center-align text-blue text-blue darken-3" href="">unBiased</a></li>
   <li><div class="divider"></div></li>
   <li><a class="center-align" href="whatwedo.html">What we do</a></li>
@@ -165,7 +165,7 @@
   <script>
 
     $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({edge:'right'});
     $('.materialboxed').materialbox();
     $('.parallax').parallax();
     $('.tabs').tabs();

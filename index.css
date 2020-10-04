@@ -12,10 +12,6 @@
   background-size: cover;
 }
 
-header {
-    padding-bottom : 10%;
-  }
-
   @keyframes tonext {
     75% {
       left: 0;

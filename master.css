@@ -2,8 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header-text-style {
+    text-align: center;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 30px;
+    color:  rgb(61, 133, 198);
     
 }
+    
 .mainHeader {
     background-color : rgb(61, 133, 198);
     color : white;

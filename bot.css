@@ -25,7 +25,7 @@
 
   .container2{
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: center;
   }
   
@@ -37,9 +37,10 @@
   }
 
 .btn-grid{
-      display: grid;
+      
       grid-template-columns: repeat(1, auto);
       margin-top: 20px;
+      text-align: right !important;
   }
 
 .btn1 {
@@ -58,6 +59,8 @@
       background-color: rgb(61, 133, 198);
       color:white !important;
       font-size: large !important;
+      text-align: right !important;
+   
   }
 
 
@@ -75,7 +78,7 @@
     background-size: cover;
   }
 
-.header-text-style {
+h2 {
     text-align: center;
     font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 30px;
@@ -126,7 +129,7 @@
 
 .chat .chat-message{
   width: 70%;
-  padding: 15px;
+  padding: 30px;
   margin: 5px 10px 0;
   
   border-radius: 10px;

@@ -150,3 +150,9 @@ h2 {
   text-align: right;
 }
   
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 0px 0px;
+  color: rgb(3, 26, 46);
+  }

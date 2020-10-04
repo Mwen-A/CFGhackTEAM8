@@ -68,3 +68,24 @@
     padding: 50px 0px 0px 0px;
     }
 
+.padding-footer-links {
+    padding: 15px;
+    color: rgb(3, 38, 68)
+}
+
+.footer-style{
+    background:rgb(61, 133, 198);
+    box-shadow: 0 0 10px 10px;
+}
+
+.footer-style2{
+    background:rgb(61, 133, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-logo{
+    text-decoration: none;
+    color: white;
+}

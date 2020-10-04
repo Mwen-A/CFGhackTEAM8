@@ -5,8 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Pricing</title>
    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="master.css">
-   <link rel="stylesheet" href="index.css">
+
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -15,50 +14,74 @@
    <script src="master.js"></script>
    <link rel = "stylesheet" href = "design.css">
    <script src="design.js"></script>
+   <link rel="stylesheet" href="master.css">
+   <link rel="stylesheet" href="index.css">
 	<body>
-	  <header>
-      <div class= "headerHolder">
-            <h1 class= "mainHeader"> unBiased </h1>
-  <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Transparent to Solid Nav</a>
+    <header>
+      <div class="menu-background">
+          <div class="pull-left">
+              <button onclick="resizeText(1)" class="btn btn-primary "><i id="increase-text-size" alt="increase font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-up"></i>
+              </i></button>
+              <button onclick="resizeText(-1)" class="btn btn-primary "><i id="decrease-text-size" alt="decrease font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-down"></i></i></button>
           </div>
-          <ul class="nav nav-tabs nav-justified">
-            <li class="nav-item">
-              <a class="nav-link" href="#!">Home</a>
+          <div class="dropdown pull-right">
+              <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-toggle="dropdown">Account
+      </button>
+       
+                  <div class="dropdown-menu pull-right">
+                      <form class="px-4 py-3">
+                        <div class="form-group">
+                          <label for="exampleEmail1">Email address</label>
+                          <input type="email" class="form-control" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="examplePassword1">Password</label>
+                          <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>   Sign in</button>
+                      </form>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#"> Don't have an account? Sign up</a>
+                      <a class="dropdown-item" href="#">Forgot password?</a>
+                    </div>
+        
+            </div>
+          </div>
+     <div class= "headerHolder">
+
+          <h1 class= "mainHeader"> unBiased 
+
+          </h1>
+        
+
+              </div>
+
+          <!-- Links -->
+  
+        <ul class="nav nav-tabs nav-justified d-flex flex-column flex-sm-row">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="whatwedo.html">What we do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="preview.html">Preview</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#!">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!">What we do</a>
+              <a class="nav-link active" href="bot.html">Advice bot</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!">Preview</a>
+              <a class="nav-link" href="#!">Contact us</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#!">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#!">Advice bot</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#!">Contact us</a>
-              </li>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Another Link</a></li>
-            </ul>
-    </header>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
+        </ul>
+
+  </header>
+
+
 <div class="row">
   <div class="column">
     <div class="card">

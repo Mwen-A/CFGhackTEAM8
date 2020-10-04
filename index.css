@@ -12,6 +12,10 @@
   background-size: cover;
 }
 
+.more {
+  align-items: center;
+}
+
   @keyframes tonext {
     75% {
       left: 0;

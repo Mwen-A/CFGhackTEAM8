@@ -36,7 +36,7 @@
                   </ul>
                 </div>
               </nav>
-            </div>
+ </div>
 </header>
 
 <!--Parallax slogan-->
@@ -131,6 +131,17 @@
     </ul>
   </div>
 
+
+
+ <div class="footer white black-text">
+       <div class="container center-align">          
+     <p style="line-height: 1.7rem">
+   We are dedicated to reducing bias within the work place.
+    <br>
+     Please go to our contact us page to get in touch!
+     </p>
+    </div>
+
   <div class="footer-copyright blue darken-3 white-text">
     <div class="container center-align">&copy; 2020 unBiased</div>
   </div>
@@ -142,22 +153,17 @@
   
   <!--Jquery initiation of functionalities-->
   <script>
-    var dateToday = new Date();
+
     $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.materialboxed').materialbox();
     $('.parallax').parallax();
     $('.tabs').tabs();
-    $('.tooltipped').tooltip();
-    $('.scrollspy').scrollSpy();
-    $('.datepicker').datepicker({
-        minDate: dateToday
 
-    });
+  
     
     $('.slider').slider({indicators:false})
-    $('.modal').modal();
-    $('.timepicker').timepicker();
+
     });
 
   </script>

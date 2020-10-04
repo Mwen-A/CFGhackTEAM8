@@ -109,7 +109,7 @@ i {
     align-content: center;
     padding: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .sectionTitle {
         margin-bottom: 30px;
         font-size: 2.2rem;

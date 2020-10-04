@@ -68,6 +68,12 @@ padding: 50px 0px 0px 0px;
     margin-top: -40px;
     transition-delay: 0.1s;
 }
+/* .container .card:active .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.1s;
+} */
 .box {
     background: rgb(114, 150, 250);
 }
@@ -96,30 +102,3 @@ i {
     align-content: center;
     padding: 10px;
 }
-/* .customer {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 2rem 1rem 2rem;
-    justify-content: center;
-    align-items: center;
-    width: 320px;
-    height: 280px;
-}
-
-.what p {
-    text-align: center;
-    vertical-align: middle;
-}
-.customer {
-    width: auto;
-    height: auto;
-}
-.customersbox {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-}
-.customers {
-    align-items: center;
-}
- */

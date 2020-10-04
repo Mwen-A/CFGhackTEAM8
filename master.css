@@ -49,3 +49,9 @@
     background-size: cover;
   }
 
+.sectionTitle {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+    }
+

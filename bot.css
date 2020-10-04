@@ -64,20 +64,6 @@
   }
 
 
-.parallax { 
-    /* The image used */
-    background-image: url("pictures/pexels-fauxels-3184424.jpg");
-  
-    /* Set a specific height */
-    height: 300px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
 h2 {
     text-align: center;
     font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;

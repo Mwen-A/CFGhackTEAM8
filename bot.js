@@ -51,7 +51,7 @@
           nextText: 2
         },
         {
-          text: 'Can you tell us more about your pricing packages?',
+          text: 'Can you tell us more about your pricing packages, please?',
           nextText: 3
         },
         {
@@ -65,7 +65,7 @@
       text: 'Bias in recruitment prevents equal job opportunity for all, our statistical page can give you further details',
       options: [
         {
-          text: 'Thanks, tell me more about your pricing packages',
+          text: 'Thanks, can you tell us more about your pricing packages, please?',
           nextText: 3
         },
         {
@@ -83,7 +83,7 @@
       text: 'We have three pricing options: Tier 1, Tier 2 and Tier 3, please see our pricing page for more info',
       options: [
         {
-          text: 'Thanks, I would like more resources on reducing bias, please',
+          text: 'Thanks, can we have more resources on reducing bias, please',
           nextText: 2
         },
         {
@@ -101,11 +101,11 @@
         text: 'We are based in London and you can send us an enquiry through our contact page',
         options: [
           {
-            text: 'Thanks, I would like more resources on reducing bias, please',
+            text: 'Thanks, can we have more resources on reducing bias, please',
             nextText: 2
           },
           {
-            text: 'Thanks, tell me more about your pricing packages',
+            text: 'Thanks, tell me more about your pricing packages, please?',
             nextText: 3
           },
           {

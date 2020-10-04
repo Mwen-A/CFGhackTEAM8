@@ -1,74 +1,84 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
+    <head>
+      <meta charset="UTF-8">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- css link --> 
+      <link rel="stylesheet" type="text/css" href="style.css">
+       <!-- font awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="master.js"></script>
-</head>
-<body>
-  <div class="parallax"></div>
 
+    </head>
 
-  <header>
-    <div class="menu-background">
-        <div class="pull-left">
-            <button onclick="resizeText(1)" class="btn btn-primary "><i id="increase-text-size" alt="increase font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-up"></i>
-            </i></button>
-            <button onclick="resizeText(-1)" class="btn btn-primary "><i id="decrease-text-size" alt="decrease font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-down"></i></i></button>
+    <body>
+
+<!--Navbar-->
+<header>
+  <div class="menu-background">
+      <div class="pull-left">
+          <button onclick="resizeText(1)" class="btn btn-primary "><i id="increase-text-size" alt="increase font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-up"></i>
+          </i></button>
+          <button onclick="resizeText(-1)" class="btn btn-primary "><i id="decrease-text-size" alt="decrease font size" class="fas fa-font fa-1x icon-padding"><i class="fas fa-arrow-down"></i></i></button>
+      </div>
+      <div class="dropdown pull-right">
+          <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-toggle="dropdown">Account
+  </button>
+   
+              <div class="dropdown-menu pull-right">
+                  <form class="px-4 py-3">
+                    <div class="form-group">
+                      <label for="exampleEmail1">Email address</label>
+                      <input type="email" class="form-control" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="examplePassword1">Password</label>
+                      <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>   Sign in</button>
+                  </form>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#"> Don't have an account? Sign up</a>
+                  <a class="dropdown-item" href="#">Forgot password?</a>
+                </div>
+    
         </div>
-        <div class="dropdown pull-right">
-            <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-toggle="dropdown">Account
-    </button>
-     
-                <div class="dropdown-menu pull-right">
-                    <form class="px-4 py-3">
-                      <div class="form-group">
-                        <label for="exampleEmail1">Email address</label>
-                        <input type="email" class="form-control" placeholder="email@example.com">
-                      </div>
-                      <div class="form-group">
-                        <label for="examplePassword1">Password</label>
-                        <input type="password" class="form-control" placeholder="Password">
-                      </div>
-                      <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>   Sign in</button>
-                    </form>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"> Don't have an account? Sign up</a>
-                    <a class="dropdown-item" href="#">Forgot password?</a>
-                  </div>
-      
+      </div>
+ <div class= "headerHolder">
+
+      <h1 class= "mainHeader"> unBiased 
+
+      </h1>
+    
+
           </div>
-        </div>
-   <div class= "headerHolder">
 
-        <h1 class= "mainHeader"> unBiased 
+      <!-- Links -->
 
-        </h1>
-      
-
-            </div>
-
-        <!-- Links -->
-
-      <ul class="nav nav-tabs nav-justified d-flex flex-column flex-sm-row">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="whatwedo.html">What we do</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="preview.html">Preview</a>
-        </li>
+    <ul class="nav nav-tabs nav-justified d-flex flex-column flex-sm-row">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="whatwedo.html">What we do</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="preview.html">Preview</a>
+      </li>
         <li class="nav-item">
             <a class="nav-link" href="pricing.html">Pricing</a>
           </li>
@@ -82,166 +92,163 @@
 
 </header>
 
+<!--Parallax slogan-->
+<div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+                  <div class="container">
+                  <br><br>
+                  <h1 class="header center blue-text text-darken-3">unBiased</h1>
+                  <div class="row center">
+                  <h5 class="header col s12 black-text">Breaking professional class-ceilings... one at a time</h5>
+                  </div>
+               <div class="row center">
+                <a href="whatwedo.html" id="download-button" class="btn-large waves-effect waves-light blue darken-3 col-4 offset-4">More on what we do</a>
+             </div>
+            <br><br>
+            
+           </div>
+        </div>
+      <div class="parallax"><img src="pexels-christina-morillo-1181393.jpg" alt="Diverse hands"></div>
+ </div>
 
-<section class="carousel col-10 offset-1" aria-label="Gallery">
-  <ol class="carousel__viewport">
-    <li id="carousel__slide1"
-        tabindex="0"
-        class="carousel__slide">
-      <div class= "review"> 
-        "Has saved me so much time"
-        <br>
-        - A fake company
-      </div>
-      <div class="carousel__snapper">
-        <a href="#carousel__slide4"
-           class="carousel__prev">Go to last slide</a>
-        <a href="#carousel__slide2"
-           class="carousel__next">Go to next slide</a>
-      </div>
-    </li>
-    <li id="carousel__slide2"
-        tabindex="0"
-        class="carousel__slide">
-        <p class= "review"> 
-          "I never knew writing unbaised job adverts could be so easy!"
-          <br>
-          - A fake company
-        </p>
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide1"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide3"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide3"
-        tabindex="0"
-        class="carousel__slide">
-        <p class= "review"> 
-          "unBaised is an essential part of"
-        </p>
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide2"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide4"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide4"
-        tabindex="0"
-        class="carousel__slide">
-        <p class= "review"> 
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut incidunt quae iusto quibusdam, aliquam deserunt placeat voluptate harum rerum blanditiis ducimus molestiae pariatur soluta eius mollitia consequatur, velit voluptas dolore.
-        </p>
-      <div class="carousel__snapper"></div>
-      <a href="#carousel__slide3"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide1"
-         class="carousel__next">Go to first slide</a>
-    </li>
-  </ol>
-  <aside class="carousel__navigation">
-    <ol class="carousel__navigation-list">
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide1"
-           class="carousel__navigation-button">Go to slide 1</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide2"
-           class="carousel__navigation-button">Go to slide 2</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide3"
-           class="carousel__navigation-button">Go to slide 3</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide4"
-           class="carousel__navigation-button">Go to slide 4</a>
-      </li>
-    </ol>
-  </aside>
-</section>
 
+<!--Promotional section-->
+ <div class="container">
+    <div class="section">
+
+       <!--   Icon Section   -->
+       <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text text-darken-2"><i class="large material-icons">groups</i></h2>
+            <h5 class="center col-12">Leading industry experts in diverse recruitment aids</h5>
+
+            <p class="light col-12">Baised adverts will always lead to biased recruitment.
+              <br>
+              Break the cycle with unBaised.
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text text-darken-2"><i class="large material-icons">bubble_chart</i></h2>
+            <h5 class="center center col-12">Innovative and cutting-edge AI tools at your disposal</h5>
+
+            <p class="light center col-12">Use our smart AI tools to search for biased language and phrases.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text text-darken-2"><i class="large material-icons">cached</i></h2>
+            <h5 class="center col-12">Industry certifications, great testimonials, continuous improvement, all-inclusive subscriptions, </h5>
+
+            <p class="light center col-12">We are always striving to do our best for you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--Carousel slides-->
+<h2 class="center blue-text text-darken-3">Testimonials</h2>
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="pexels-august-de-richelieu-4427611.jpg"> 
+        <div class="caption center-align">
+          <h3>Improved Services
+          </h3>
+          <h5 class="light grey-text text-lighten-3">"With unBiased help, we have been able to improve the quality of our counseling"</h5>
+        </div>
+      </li>
+      <li>
+        <img src="pexels-mentatdgt-1569076.jpg"> 
+        <div class="caption left-align">
+          <h3>Better work environment</h3>
+          <h5 class="light grey-text text-lighten-3">"Our work environment has become more dynamic thanks to unBiased"</h5>
+        </div>
+      </li>
+      <li>
+        <img src="pexels-cliff-booth-4058223.jpg"> 
+        <div class="caption left-align">
+          <h3 class="light black-text">Increased profits</h3>
+          <h5 class="light black-text">"A more diverse team has helped us develop a more intelligent perspective on things"</h5>
+        </div>
+      </li>
+      <li>
+        <img src="pexels-rodnae-productions-4920887.jpg"> 
+        <div class="caption left-align white-text">
+          <h3>Stronger work teams</h3>
+          <h5 class="white-text">"Our work teams are better integrated"</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+
+  <!--Footer-->
+
+<!-- Footer -->
 <footer class="page-footer font-medium indigo">
-
   <!-- Footer Links -->
   <div class="container">
-
     <!-- Grid row-->
     <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-
-       <!-- Grid column -->
-       <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="index.html">Home</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="whatwedo.html">What we do</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="pricing.html">Pricing</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="bot.html">Advice bot</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="contact.html">Contact us</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
-
-    </div>
     <!-- Grid row-->
     <hr class="rgba-white-light" style="margin: 0 15%;">
-
     <!-- Grid row-->
     <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-
       <!-- Grid column -->
       <div class="col-md-8 col-12 mt-5">
-        <p style="line-height: 1.7rem">
-          We are dedicated to reducing bais within the work place.
-          <br>
-          Please go to our contact us page to get in touch!
-        </p>
+        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
       </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row-->
-
-    <!-- Grid row-->
-
   </div>
   <!-- Footer Links -->
-
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright
     <a href="index.html"> unBiased</a>
   </div>
   <!-- Copyright -->
+       <!--Facebook-->
+<a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+<!--Twitter-->
+<a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
+<!--Google +-->
+<a class="btn-floating btn-lg btn-gplus" type="button" role="button"><i class="fab fa-google-plus-g"></i></a>
+      </div>
+    </div>
+    <!--/Copyright-->
+  </footer>
+  <!--/Footer-->
 
-</footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   
-</body>
+  <!--Jquery initiation of functionalities-->
+  <script>
 
-</html>
+    $(document).ready(function(){
+    $('.sidenav').sidenav({edge:'right'});
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+
+  
+    
+    $('.slider').slider({indicators:false})
+
+    });
+
+  </script>
+    </body>
+  </html>
+        

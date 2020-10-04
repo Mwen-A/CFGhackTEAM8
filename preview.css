@@ -2,6 +2,12 @@
     margin: 5%;
 }
 
+.section {
+    align-content: center;
+    padding: 50px 0px 0px 0px;
+    size: 2rem;
+}
+
 .analyzeBtn{
     background-color: rgb(61, 133, 198);
     left: 50%;

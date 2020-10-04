@@ -12,9 +12,9 @@
   background-size: cover;
 }
 
-header {
-    padding-bottom : 10%;
-  }
+.more {
+  align-items: center;
+}
 
   @keyframes tonext {
     75% {

@@ -2,14 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header-text-style {
+    text-align: center;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 30px;
+    color:  rgb(61, 133, 198);
     
 }
+    
 .mainHeader {
     background-color : rgb(61, 133, 198);
     color : white;
     text-align: center;
     padding : 40px;  
-    font-family: 'Oxygen', sans-serif;
     margin : 0px;
 }
 
@@ -26,7 +33,6 @@
 
 .h2Style {
     text-align: center;
-    font-family: 'Oxygen', sans-serif;
     padding: 30px;
     color:  rgb(61, 133, 198);
     
@@ -39,5 +45,26 @@
     color: white;
 }
 
+.parallax { 
+    /* The image used */
+    background-image: url("pexels-fauxels-3184424.jpg");
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+.sectionTitle {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+    }
 

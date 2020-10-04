@@ -51,7 +51,7 @@
           nextText: 2
         },
         {
-          text: 'Tell me more about your pricing packages?',
+          text: 'Can you tell us more about your pricing packages?',
           nextText: 3
         },
         {

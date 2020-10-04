@@ -50,7 +50,7 @@ body {
 	background-color: gb(50,205,50);
 }
 
-shadow-effect {
+.shadow-effect {
 		    background: #fff;
 		    padding: 20px;
 		    border-radius: 4px;

@@ -9,7 +9,6 @@
     color : white;
     text-align: center;
     padding : 40px;  
-    font-family: 'Oxygen', sans-serif;
     margin : 0px;
 }
 
@@ -26,7 +25,6 @@
 
 .h2Style {
     text-align: center;
-    font-family: 'Oxygen', sans-serif;
     padding: 30px;
     color:  rgb(61, 133, 198);
     

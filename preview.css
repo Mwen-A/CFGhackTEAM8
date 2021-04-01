@@ -2,6 +2,12 @@
     margin: 5%;
 }
 
+.section {
+    align-content: center;
+    padding: 50px 0px 0px 0px;
+    size: 2rem;
+}
+
 .analyzeBtn{
     background-color: rgb(61, 133, 198);
     left: 50%;
@@ -19,13 +25,6 @@
     text-align: center;
 }
 
-.h2Style {
-    text-align: center;
-    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding: 30px;
-    color:  rgb(61, 133, 198);
-    
-}
 
 .border-dark {
     border-color:  rgb(61, 133, 198);
@@ -46,7 +45,6 @@
 
 .feedbackScore {
     text-align: center;
-    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 30px;
     color:  rgb(61, 133, 198);
     font-size: 25px;
@@ -55,3 +53,16 @@
 .container-fluid{
     padding: 0px;
 }
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+  }

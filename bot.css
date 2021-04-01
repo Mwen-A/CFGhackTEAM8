@@ -1,0 +1,144 @@
+#main {
+    transition: margin-right .5s;
+    padding: 16px;
+    align-items: right;
+  }
+
+  *, *::before, *::after{
+      box-sizing: border-box;
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .container1 {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    margin: 10px;
+      
+    }
+
+  .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    .container3 {
+      background-color: rgb(61, 133, 198);
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 2px;
+  }
+
+.btn-grid{
+      
+      grid-template-columns: repeat(1, auto);
+      margin-top: 20px;
+      text-align: right !important;
+  }
+
+.btn1 {
+    background-color: rgb(61, 133, 198);
+    border: 1px solid rgb(61, 133, 198);
+     border-radius: 5 px;
+     padding: 5px 10px;
+     color: white;
+     outline: none;
+     font-size: medium !important;
+     text-align: right !important;
+  }
+
+
+.btn:hover {
+      background-color: rgb(61, 133, 198);
+      color:white !important;
+      font-size: large !important;
+      text-align: right !important;
+   
+  }
+
+
+h2 {
+    text-align: center;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 30px;
+    color:  rgb(61, 133, 198);
+    
+}
+
+.text-style{
+  text-align: center;
+}
+
+#text{
+    font-size: large !important;
+    font-weight: 800;
+}
+
+.chatbox{
+  width: 600px;
+  min-width: 390px;
+  height: 350px;
+  background: #fff;
+  padding: 25px;
+  margin: 20px auto;
+  box-shadow: 0 0 10 3px rgb(157, 157, 161);
+  
+}
+
+.chatlogs{
+  padding: 10px;
+  width: 100%;
+  height: 450px;
+  background: #fbfbfb;
+}
+
+.chat{
+  display:flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.chat .user-photo{
+  width: 60px;
+  height: 60px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.chat .chat-message{
+  width: 70%;
+  padding: 30px;
+  margin: 5px 10px 0;
+  
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.bot .chat-message{
+  background: rgb(61, 133, 198);
+}
+
+.customer .chat-message{
+  background: rgb(19, 91, 150); 
+  order: -1;
+}
+
+.text-style2 {
+  text-align: right;
+}
+  
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 0px 0px;
+  color: rgb(3, 26, 46);
+  }

@@ -1,0 +1,125 @@
+.sectionTitle {
+display: flex;
+justify-content: center;
+padding: 50px 0px 0px 0px;
+}
+
+.number, .sign {
+    font-size: 2rem;
+    padding: 1px;
+}
+.percentage {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 200px;
+    background: #fff;
+    margin: 30px 35px;
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(7, 23, 94, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover {
+    height: 420px;
+}
+.container .card .box {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -70px;
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(41, 29, 109, 0.25);
+}
+.container .card .box {
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.1s;
+}
+.box {
+    background: rgb(114, 150, 250);
+}
+.card {
+    background: rgb(0, 102, 255);
+}
+.customersbox {
+    display: flex;
+    justify-content: center;
+}
+.customers {
+    display: flex;
+    /* align-content: center; */
+    /* justify-content: space-between; */
+    width: 500px;
+    margin: 3rem 5rem 3rem 5rem;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(7, 23, 94, 0.5);
+    border-radius: 4px;
+}
+.customer {
+    padding: 1rem;
+}
+i {
+    display: flex;
+    align-content: center;
+    padding: 10px;
+}
+/* .customer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 280px;
+}
+
+.what p {
+    text-align: center;
+    vertical-align: middle;
+}
+.customer {
+    width: auto;
+    height: auto;
+}
+.customersbox {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.customers {
+    align-items: center;
+}
+ */

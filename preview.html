@@ -6,14 +6,14 @@
     <title>Preview</title>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="css/preview.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script defer src="appPreview.js"></script>
-    <script src="master.js"></script>
+    <script defer src="js/appPreview.js"></script>
+    <script src="js/master.js"></script>
 </head>
 <body>
     <header>
@@ -150,10 +150,10 @@
             <p>Mentions of alcohol could discourage candidates who do not drink. Instead, why not focus on the social aspects of work socials?</p>
         </p>
     </div>
-    <!-- parallax -->
+
+  
 <!--Footer-->
- <!-- parallax -->
- <div class="parallax"></div>
+
  <!-- Footer -->
  <footer class="page-footer font-medium indigo">
    <!-- Footer Links -->
@@ -191,5 +191,25 @@
      <!--/Copyright-->
    </footer>
    <!--/Footer-->
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  
+  <!--Jquery initiation of functionalities-->
+  <script>
+
+    $(document).ready(function(){
+    $('.sidenav').sidenav({edge:'right'});
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+
+  
+    
+    $('.slider').slider({indicators:false})
+
+    });
+
+  </script>
 </body>
 </html>
